@@ -1,0 +1,13 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "unplugin-fontawesome-autoimport": "^0.0.0"
+  }
+}

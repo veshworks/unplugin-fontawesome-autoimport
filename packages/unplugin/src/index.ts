@@ -1,5 +1,5 @@
-import { createUnplugin } from 'unplugin'
-import type { Options } from './types'
+import { createUnplugin } from 'unplugin';
+import type { Options } from './types';
 
 export default createUnplugin<Options | undefined>(options => ({
   name: 'unplugin-starter',
@@ -9,4 +9,4 @@ export default createUnplugin<Options | undefined>(options => ({
   transform(code) {
     return code.replace('__UNPLUGIN__', `Hello Unplugin! ${options}`)
   },
-}))
+}));
